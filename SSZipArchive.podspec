@@ -19,4 +19,6 @@ Pod::Spec.new do |s|
   s.framework = 'Security'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES',
     'GCC_PREPROCESSOR_DEFINITIONS' => 'HAVE_INTTYPES_H HAVE_PKCRYPT HAVE_STDINT_H HAVE_WZAES HAVE_ZLIB ZLIB_COMPAT' }
+  s.resource_bundles = {'SSZipArchive' => ['SSZipArchive/PrivacyInfo.xcprivacy']}
+ 
 end
