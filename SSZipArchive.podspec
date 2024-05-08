@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.visionos.deployment_target = '1.0'
   s.watchos.deployment_target = '8.4'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
-  s.resource_bundles = {'SSZipArchive' => ['SSZipArchive/Supporting Files/Privacyinfo.xcprivacy']}
   s.public_header_files = 'SSZipArchive/*.h'
   s.libraries = 'z', 'iconv'
   s.framework = 'Security'
